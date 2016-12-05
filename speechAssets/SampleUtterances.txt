@@ -1,0 +1,28 @@
+
+OneshotInfoIntent get info for {name} 
+OneshotInfoIntent get info for {name} {day}
+OneshotInfoIntent what did {name} do {day}
+OneshotInfoIntent get data for {name} {day}
+OneshotInfoIntent get {day} movements for {name}
+OneshotInfoIntent get movements for {name}
+OneshotInfoIntent get movements for {name} {day}
+OneshotInfoIntent what {name} did {day}
+OneshotInfoIntent what {name} did
+
+
+DialogInfoIntent {name}
+DialogInfoIntent {name} {day}
+DialogInfoIntent {day}
+DialogInfoIntent {day} {name}
+
+
+SupportedNamesIntent what names
+SupportedNamesIntent what names are supported
+SupportedNamesIntent which names are supported
+SupportedNamesIntent which names
+SupportedNamesIntent which names do you know
+
+AMAZON.StopIntent no
+AMAZON.StopIntent nope
+AMAZON.StopIntent no thanks
+AMAZON.StopIntent no thank you

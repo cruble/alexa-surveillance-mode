@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "intent": "OneshotInfoIntent",
+      "slots": [
+        {
+          "name": "name",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "day",
+          "type": "LIST_OF_DAYS"
+        }
+      ]
+    },
+
+    {
+      "intent": "DialogInfoIntent",
+      "slots": [
+        {
+          "name": "name",
+          "type": "LIST_OF_NAMES"
+        },
+        {
+          "name": "day",
+          "type": "LIST_OF_DAYS"
+        }
+      ]
+    },
+
+    {
+      "intent": "SupportedNamesIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
