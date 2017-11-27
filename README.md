@@ -1,5 +1,5 @@
 # Code base for "Surveillance Mode" Alexa Prank 
-A simple [AWS Lambda](http://aws.amazon.com/lambda) function that allows for a simple and satisfying Alexa Prank. Make your friends and family think that they are being tracked. 
+A simple [AWS Lambda](http://aws.amazon.com/lambda) function that allows for a simple and satisfying Alexa Prank. Make your friends and family think that they are being tracked more closely than they could possibly imagine. 
 
 ## Setup
 To run this prank you need to do two things. The first is to deploy the code in lambda, and the second is to configure an Alexa skill to use Lambda. You can personalize the code for your desired targets and deploy it to your own system as a developer. 
@@ -38,7 +38,7 @@ These steps are required for the skill set up.
 10. Get information about your friend's days. Add your friend's name and information for each day ('yesterday', 'today', 'tomorrow') to the sections. We find that random details seem to have the best effect. 
 
 ## Examples
-Example user interactions:
+To use the skill, say "Open surveillance Mode" or "Ask surveillance mode". I often accidentally say "Turn on surveillance mode, then the Echo thinks that you are trying to use an Internet connected device. Example user interactions below: 
 
 ### One-shot model:
     User:  "Alexa, ask Surveillance Mode what Charles did yesterday."
